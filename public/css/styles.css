@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100%;
+}
+
+
+.web_design {
+  width: 45%;
+  float: left;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.signUpForm {
+  text-align: center;
+  margin: auto;
+  float: right;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+.news {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.copyright {
+  position: relative;
+  right: 50%;
+  top: 50%;
+  white-space: nowrap;
+  
+}
+
