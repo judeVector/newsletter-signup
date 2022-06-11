@@ -1,6 +1,7 @@
 const express = require('express');
 const request = require('request');
 const bodyParser = require('body-parser');
+import {url, auth_key} from './api_key/my_url';
 const path = require('path');
 const { response } = require('express');
 const PORT = process.env.PORT || 3000;
@@ -33,10 +34,10 @@ app.post('/', (req, res) => {
     const mcDataPost = JSON.stringify(mcData);
 
     const options = {
-        url: 'https://us18.api.mailchimp.com/3.0/lists/97af64021b',
+        url: url,
         method: 'POST',
         headers: {
-            Authorization: 'auth de406502220ebbe51e566194c1121b6c-us18'
+            Authorization: auth_key,
         },
         body: mcDataPost
     }
